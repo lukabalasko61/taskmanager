@@ -1,6 +1,6 @@
 # Task Manager
 
-A simple CRUD Task Manager web application for university Web Application Development project.
+A simple CRUD Task Manager web application for Web Application Development project.
 
 ## 🚀 Quick Start
 
@@ -133,4 +133,4 @@ npm install
 
 ---
 
-Built for university Web Application Development project.
+Built for Web Application Development project.
