@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Task Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-brand">Task Manager</h1>
+            <div class="nav-menu">
+                <span class="nav-username" id="username-display"></span>
+                <a href="create-task.html" class="btn btn-primary">New Task</a>
+                <form action="/auth/logout" method="POST" class="logout-form">
+                    <button type="submit" class="btn btn-secondary">Logout</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="dashboard-header">
+            <h2>My Tasks</h2>
+            <div class="task-stats">
+                <span id="total-tasks">Total: 0</span>
+                <span id="completed-tasks">Completed: 0</span>
+            </div>
+        </div>
+
+        <div class="tasks-container" id="tasks-container">
+            <p class="loading">Loading tasks...</p>
+        </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
